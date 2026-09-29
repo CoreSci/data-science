@@ -21,6 +21,10 @@ A collection of data analysis, forecasting and visualization notebooks that appl
 
 Each notebook opens with a short header covering the problem, approach and data, plus attribution where it adapts a published tutorial. The finance notebooks get their risk/return metrics from the local `scripts/risk_metrics.py` module, so they run without any external course code.
 
+### `learning-with-kids/`
+
+Seven beginner Python programs for a child aged 6–8 with a parent, run in Thonny. Parent guides are **in French**; code and comments are in English. They cover input/output, functions, loops, if/else, variables and lists, turtle graphics, and a guess-the-number game. `test_lessons.py` runs every program with scripted answers, and the turtle drawings under a virtual display.
+
 ### `datasets/`
 
 Sample or public data only, never client or proprietary data:

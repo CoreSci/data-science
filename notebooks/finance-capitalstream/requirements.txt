@@ -1,0 +1,10 @@
+# Dependencies for the CapitalStream finance notebooks
+nasdaq-data-link   # FRED macro data (needs NASDAQ_DATA_LINK_API_KEY)
+yfinance           # Yahoo Finance prices
+requests           # Poloniex v2 public API
+tensorflow         # LSTM forecasting / anomaly detection
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn

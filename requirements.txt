@@ -1,5 +1,32 @@
+# Core stack
 pandas
 numpy
 matplotlib
+seaborn
 scikit-learn
+scipy
 jupyter
+requests
+
+# Deep learning (forecasting / anomaly-detection notebooks)
+tensorflow
+
+# Market & macro data
+yfinance
+nasdaq-data-link
+quandl            # legacy client used by scripts/finance-2016/quandl_housing_index.py
+
+# NLP & social APIs
+nltk
+praw
+python-twitter
+
+# Vision, PDF, chemistry, maps
+opencv-python
+tabula-py        # also needs a Java runtime
+reportlab        # regenerates datasets/sample-pdfs/sample_table.pdf
+rdkit
+basemap
+
+# Tests
+pytest

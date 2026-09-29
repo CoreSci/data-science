@@ -12,7 +12,7 @@ A collection of data analysis, forecasting and visualization notebooks that appl
 
 | Folder | Notebooks | What they cover |
 |---|---|---|
-| `ml-fundamentals/` | linear & logistic regression, decision tree, random forest, gradient boosting, k-NN, SVM, PCA, t-test, pandas basics, loops | Compact reference implementations of core techniques, mostly on the Iris dataset or synthetic data |
+| `ml-fundamentals/` | linear & logistic regression, decision tree, random forest, gradient boosting, k-NN, SVM, PCA (plus `pca-from-scratch`, which builds PCA from eigen-decomposition and checks it against scikit-learn), t-test, pandas basics, loops | Compact reference implementations of core techniques, mostly on the Iris dataset or synthetic data |
 | `signal-processing/` | `fourier-transform`, `lstm-sequence-windowing` | FFT spectrum analysis; preparing time-series windows for recurrent models |
 | `nlp-vision/` | `nltk-tokenization`, `opencv-image-basics` | Text pre-processing; image loading and display in headless Jupyter |
 | `nlp-social/` | `twitter-timeline-word-frequency`, `reddit-wallstreetbets-word-frequency` | Topic discovery from social-media text via token frequencies. 🔑 API credentials required |
@@ -48,6 +48,18 @@ Every tutorial-derived script names its source in an **"Adapted from:"** line in
 ### `requirements.txt`
 
 Python dependencies.
+
+## Courses completed
+
+Structured courses behind the techniques used in these repos. Only the course links are listed here: the course materials belong to their authors and LinkedIn, and aren't redistributed.
+
+| Course (LinkedIn Learning) | Instructor | What it covered |
+|---|---|---|
+| [Machine Learning with Python: Foundations](https://www.linkedin.com/learning/machine-learning-with-python-foundations) | Frederick Nwanganga | The ML workflow end to end: collecting, exploring and preparing data, then building, evaluating and interpreting models in Python |
+| [Machine Learning with Scikit-Learn](https://www.linkedin.com/learning/machine-learning-with-scikit-learn) | Michael Galarnyk | Supervised learning (linear/logistic regression, decision trees, bagged trees, random forests), unsupervised learning (k-means, PCA) and scikit-learn pipelines |
+| [Python for Engineers and Scientists](https://www.linkedin.com/learning/python-for-engineers-and-scientists) ([exercise repo](https://github.com/LinkedInLearning/python-for-engineers-and-scientists-2425360)) | Michele Vallisneri | Fast numerics with NumPy, SciPy, Numba and Cython; correctness with SymPy, ODE solvers and interpolation; JSON/pandas/HDF5 data handling, scripting and Snakemake workflows |
+| [Building and Deploying Deep Learning Applications with TensorFlow](https://www.linkedin.com/learning/building-and-deploying-deep-learning-applications-with-tensorflow) | Adam Geitgey | Building, training, checkpointing, visualising (TensorBoard) and deploying a TensorFlow model to a cloud prediction service |
+| [Using Python for Automation](https://www.linkedin.com/learning/using-python-for-automation) | — (2022 edition) | File and directory automation, web scraping, and browser automation with Selenium |
 
 ## Philosophy
 
